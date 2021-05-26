@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>libzmq</name>
+    <version>4.3.4</version>
+    <description>ZeroMQ core engine in C++, implements ZMTP/3.1</description>
+    <maintainer email="tpetricek@gmail.com">Tomas Petricek</maintainer>
+    <license>Apache 2.0</license>
+    <url>https://www.zeromq.org/</url>
+    <author>See AUTHORS.</author>
+    <buildtool_depend>cmake</buildtool_depend>
+    <export>
+        <build_type>cmake</build_type>
+    </export>
+</package>
